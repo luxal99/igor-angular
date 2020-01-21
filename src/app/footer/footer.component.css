@@ -1,0 +1,92 @@
+.mail-btn:hover {
+    transition: all .1s;
+    -webkit-transition: all .1s;
+    background-color: #2b2b2b;
+    color: #60e607;
+}
+
+.facebook-btn:hover {
+    transition: all .1s;
+    -webkit-transition: all .1s;
+    background-color: #2b2b2b;
+    color: #60e607;
+}
+
+.mail-btn {
+    font-size: 2em;
+    background-color: #7eff28;
+    padding-left: .4em;
+    padding-right: .4em;
+}
+
+.facebook-btn {
+    font-size: 2em;
+    background-color: #7eff28;
+    padding-left: .5em;
+    padding-right: .5em;
+}
+
+.footer-header-1 {
+    color: #e1e1e1;
+    font-family: 'Poiret One', cursive;
+    font-size: 80px;
+    line-height: .5em;
+}
+
+.footer-header-2 {
+    color: #7eff28;
+    font-family: 'Righteous', cursive;
+    font-size: 80px;
+}
+
+.footer-paragraf {
+    font-size: 30px;
+    padding-top: 1em;
+}
+
+.footer-header-div {
+    padding-top: 15em;
+}
+
+@media screen and (max-width:800px) {
+    .contact-text {
+        font-size: 30px;
+    }
+    .contact-num-paragraf {
+        font-size: 30px;
+    }
+    .footer-row {
+        padding-top: 5em;
+    }
+    .footer-header-1 {
+        line-height: .8em;
+    }
+    .footer-header-2 {
+        line-height: 1em;
+    }
+    .footer {
+        background-image: url('../../assets/img/audi-blur.jpg');
+        background-position: center;
+        background-size: cover;
+        height: 150vh;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    .contact-num-paragraf {
+        font-size: 40px;
+    }
+    .footer-row {
+        padding-left: 18em;
+        padding-top: 5em;
+    }
+    .footer {
+        background-image: url('../../assets/img/audi-blur.jpg');
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+    }
+    .contact-text {
+        font-size: 40px;
+    }
+}
