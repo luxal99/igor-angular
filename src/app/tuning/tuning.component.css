@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poiret+One&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Slab&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Vibes&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bad+Script&display=swap');
 @import url('slider.css');
 @media (min-width:768px) {
     .header-blue {
@@ -288,8 +288,9 @@ li {
 
 .amg-h4 {
     color: #eee;
-    font-family: 'Tangerine', cursive;
-    font-size: 30px;
+    padding-top: 1.5em;
+    font-family: 'Bad Script', cursive;
+    font-size: 25px;
 }
 
 .swiper-container {
